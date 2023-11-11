@@ -1,0 +1,33 @@
+.link-all{
+    display: flex;
+    gap: 50px;
+    flex-direction: column;
+    padding: 50px 100px;
+}
+.links{
+    display: flex;
+    justify-content: space-between;
+}
+.link-text{
+    font-size: 36px;
+}
+.linkss{
+    font-size: 20px;
+    color: rgb(123, 121, 121);
+}
+.linkss1{
+    font-size: 18px;
+}
+
+@media screen and (max-width:455px) {
+    .link-all{
+        margin-top: -20px;
+padding: 30px;
+    }
+    .links{
+        margin-top: -30px;
+        flex-direction: column;
+        gap: 20px;
+    }
+    
+}

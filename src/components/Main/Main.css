@@ -1,0 +1,44 @@
+.main-all{
+    display: flex;
+    align-items: center;
+    padding: 70px 120px 30px;
+}
+.main-text{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background-color: white;
+    line-height: 30px;
+}
+.manager{
+    width: 450px;
+    height: 450px;
+    opacity: 30%;
+}
+.back{
+    width: 450px;
+    height: 450px;
+    background-color: black;
+}
+.main-p1{
+    color:#7f8081 ;
+}
+
+@media screen and (max-width: 455px) {
+.main-all{
+    flex-direction: column;
+    padding: 30px;
+}
+.back{
+height: 300px;
+width: 100vw;
+
+
+
+}
+.manager{
+width: 100vw;
+    height: 300px;
+    opacity: 30%;
+}
+  }

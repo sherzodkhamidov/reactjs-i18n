@@ -1,0 +1,16 @@
+footer{
+    padding: 50px 100px;
+    background-color: #2B2730;
+    color: white;
+    font-size: 16px;
+    display: flex;
+    justify-content: space-between;
+}
+@media screen and (max-width:455px) {
+    footer{
+        padding: 30px;
+        flex-direction: column;
+        gap: 20px;
+    }
+    
+}

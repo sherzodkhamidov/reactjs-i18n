@@ -1,0 +1,36 @@
+.stats {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 30px 100px;
+  
+}
+.stat-title {
+  font-size: 70px;
+  opacity: 80%;
+}
+.stat-text{
+  font-size: 18px;
+  width: 300px;
+}
+
+@media screen and (max-width:455px) {
+  .stats{
+    flex-direction: column;
+    padding: 0;
+  }
+  .stats div{
+display: flex;
+flex-direction: column;
+align-items: center;
+text-align: center;
+  }
+  .stat-title {
+    font-size: 35px;
+    opacity: 80%;
+  }
+  .stat-text{
+    font-size: 14px;
+  }
+  
+}

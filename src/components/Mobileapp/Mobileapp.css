@@ -1,0 +1,61 @@
+.stat-all {
+  display: flex;
+  align-items: center;
+  padding: 50px 100px;
+}
+.download {
+  width: 450px;
+  height: 450px;
+}
+.apps {
+  display: flex;
+  gap: 30px;
+}
+.div1 {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+.div1 p {
+  width: 70%;
+}
+.play {
+  background-color: #eee2de;
+  padding: 20px 50px;
+  border-radius: 16px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  gap: 20px;
+}
+.logo-photo {
+  width: 50px;
+  height: 50px;
+}
+.apps a {
+  text-decoration: none;
+}
+
+@media screen and (max-width:455px) {
+  .stat-all{
+    flex-direction: column;
+    padding: 30px;
+  }
+.div1 p{
+  width: 90%;
+}
+  .app-texts{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .play{
+    padding:15px 20px;
+    margin-bottom: 30px;
+  }
+  .download{
+    height: 300px;
+    width: 100%;
+  }
+  
+}

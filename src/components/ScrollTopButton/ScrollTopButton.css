@@ -1,0 +1,38 @@
+
+.scroll-to-top-button {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #e9b824;
+    border-radius: 8px;
+    font-size: 30px;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: opacity 0.3s;
+  }
+  
+  .scroll-to-top-button.visible {
+    display: block;
+    animation: fadeIn 0.7s ease-in-out forwards; 
+  }
+
+
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  
+
+  @media screen and (max-width:455px) {
+    .scroll-to-top-button {
+      right: 20px;
+    }
+    
+  }

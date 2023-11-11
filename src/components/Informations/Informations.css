@@ -1,0 +1,22 @@
+.info-all{
+    display: flex;
+    flex-direction: column;
+    padding: 50px 100px;
+    gap: 50px;
+}
+.div{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.ins-title{
+    font-weight: 700;
+}
+
+@media screen and (max-width:455px) {
+    .info-all{
+        padding: 30px;
+    }
+    
+}

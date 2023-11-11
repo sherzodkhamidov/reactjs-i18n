@@ -1,0 +1,45 @@
+.servis {
+  padding: 0 120px;
+  border-bottom: 1px solid #d8d9da;
+}
+.service ul div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  padding-right: 25px;
+
+}
+.service ul div li {
+  display: flex;
+  justify-content: center ;
+  font-weight: 600;
+  color: #808081;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 455px) {
+  .servis{
+    padding: 20px;
+  }
+  .service ul div {
+    padding: 0;
+    flex-direction: column;
+  }
+.service ul {
+  display: flex;
+  justify-content: center;
+}
+  
+}
+
+
+
+
+
