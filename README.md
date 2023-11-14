@@ -1,4 +1,4 @@
-React Js I18next - used for translation languages
+React Js I18next - used for translation languages - https://insurancekapital.netlify.app
 
 # React + Vite
 
